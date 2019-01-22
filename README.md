@@ -20,5 +20,11 @@
 - 1.直接Clone或者Download（这辈子都不会发release的）
 - 2.将pay.sql导入数据库
 - 3.配置数据库
+
+首先进入config表，修改admin_user为管理员账号，admin_pwd为管理员密码。
+然后修改appid为单笔转账至支付宝接口的支付宝APPID，alipayPublicKey为支付宝公钥，saPrivateKey为应用私钥。
+payer_show_name修改为返款时显示的付款人名，remark修改为返款备注。
+announce为后台公告栏代码，按需修改。
+
 - 4.修改config.php内的数据库连接信息
 - 5.访问站点，完成搭建操作
